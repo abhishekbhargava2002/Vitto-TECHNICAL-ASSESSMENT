@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# env file (VERY IMPORTANT)
+.env
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# build output
+dist/
+build/
+
+# docker
+docker-compose.override.yml
