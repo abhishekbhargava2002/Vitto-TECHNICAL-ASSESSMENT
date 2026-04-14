@@ -1,10 +1,10 @@
-# dependencies
+# Dependencies
 node_modules/
 
-# env file (VERY IMPORTANT)
+# Environment variables (VERY IMPORTANT)
 .env
 
-# logs
+# Logs
 logs/
 *.log
 npm-debug.log*
@@ -13,9 +13,12 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# build output
+# Docker runtime files (optional)
+docker-compose.override.yml
+
+# Coverage / test reports (if you add testing later)
+coverage/
+
+# Build output (if you add frontend later)
 dist/
 build/
-
-# docker
-docker-compose.override.yml
