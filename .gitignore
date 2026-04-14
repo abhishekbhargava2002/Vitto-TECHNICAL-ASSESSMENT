@@ -3,22 +3,3 @@ node_modules/
 
 # Environment variables (VERY IMPORTANT)
 .env
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Docker runtime files (optional)
-docker-compose.override.yml
-
-# Coverage / test reports (if you add testing later)
-coverage/
-
-# Build output (if you add frontend later)
-dist/
-build/
