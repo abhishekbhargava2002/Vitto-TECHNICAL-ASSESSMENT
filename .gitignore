@@ -1,5 +1,28 @@
 # Dependencies
 node_modules/
 
-# Environment variables (VERY IMPORTANT)
+# Environment variables
 .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Coverage / tests
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
